@@ -1,0 +1,46 @@
+Name-pending Design Document
+
+*******************
+Description
+*******************
+This game is a side scrolling shooter/platformer. The game is a classic MetroidVania with some variance.
+The game is played by navigating through the levels while defeating enemies and picking up powerups along the way. The game 
+is completed by reaching the final level and beating the final boss. 
+
+*******************
+Game Objects
+*******************
+The game initially takes place in the future, but the character will travel through time visiting different places. The settings
+for the levels will vary by time and location, and each may have it's own distinctive art style. The player can run to the left or the 
+right, as well as jump up to higher platforms in the level. A level will be one large room, with the screen focused on the player and
+scrolling along with his/her movement. Enemies spawn in predetermined locations, and become "active" when the player comes close 
+enough. Different enemies will have different attacks (melee/ranged, guns, swords, bows, cannons etc depending on the level). By 
+destroying enemies, the player can pick up droppable objects that increase the player's current weapon's abilities (allowing their
+current weapon to level up). If a player is hit, they receive a penalty of a decrease in their weapon level, as well as their life 
+points. By destroying different bosses, players can also accumulate special items that can be used to enchance their weapon depending
+on the boss that dropped it.
+
+*******************
+Sounds
+*******************
+There are sounds for the usage of different weapons, as well as sounds for picking up items, health, defeating enemies/bosses.
+There will also be some background music that varies depending on the level. 
+
+*******************
+Controls
+*******************
+The player controls their character with the arrow keys. The player uses their weapons with "X", jumps with "Z", switches weapons
+with "A", "S", "D", "C". Weapon switching can be done on the fly, and complex moves can be pulled off by chaining weapon switches.
+
+*******************
+Game flow
+*******************
+The player starts the game with 5 health. Health can be upgraded by collecting powerups. There will not be a tutorial, only a message
+displaying the controls. The player has only one life, but there are many save points scattered and the player can heal at save points.
+Pressing <ESC> will bring up the menu, allowing a player to reset the game or exit.
+
+*******************
+Levels
+*******************
+There will be multiple levels, each with a different theme for visuals and enemy types. Each level will have different enemies 
+specific to that level, and a final boss that rests at the end of the level. Levels are advanced by killing the level boss.
